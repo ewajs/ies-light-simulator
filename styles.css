@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    background: #333;
+    color: #eee;
+}
+
+#controls {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgba(0,0,0,0.5);
+    padding: 10px;
+    border-radius: 4px;
+    z-index: 10;
+}
+
+#controls h1 {
+    margin: 0 0 10px 0;
+    font-size: 1.2rem;
+}
+
+#controls p {
+    margin: 0 0 5px 0;
+}
+
+#iesFileInput {
+    color: #eee;
+}
